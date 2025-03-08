@@ -12,7 +12,7 @@ def convertUnits(category,value,unit):
             return value * 3.28
         elif unit == "meter to inches":
             return value * 39.36
-        elif unit == "meter to centimeter":
+        elif unit == "meter to centimeter": 
             return value * 100
         elif unit == "meter to milimeter":
             return value * 1000
